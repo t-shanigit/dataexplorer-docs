@@ -28,7 +28,10 @@ Diagnostic logs can be used to configure the collection of the following log dat
 
 # [Ingestion](#tab/ingestion)
 
-> [!NOTE]
+> [!
+
+
+]
 > Ingestion logs are supported for queued ingestion to the ingestion endpoint using SDKs, data connections, and connectors.
 >
 > Ingestion logs aren't supported for streaming ingestion, direct ingestion to the engine, ingestion from query, or set-or-append commands.
@@ -84,7 +87,7 @@ Diagnostic logs are disabled by default. To enable diagnostic logs, do the follo
 New settings will be set in a few minutes. Logs then appear in the configured archival target (Storage account, Event Hub, or Log Analytics). 
 
 > [!NOTE]
-> If you send logs to Log Analytics, the `SucceededIngestion`, `FailedIngestion`, `Command`, `Query`, `TableUsageStatistics` and `TableDetails` logs will be stored in Log Analytics tables named: `SucceededIngestion`, `FailedIngestion`, `ADXIngestionBatching`, `ADXCommand`, `ADXQuery`, `ADXTableUsageStatistics` and `ADXTableDetails` respectively.
+> If you send logs to Log Analytics, the `SucceededIngestion`, `FailedIngestion`, `IngestionBatching`, `Command`, `Query`, `TableUsageStatistics` and `TableDetails` logs will be stored in Log Analytics tables named: `SucceededIngestion`, `FailedIngestion`, `ADXIngestionBatching`, `ADXCommand`, `ADXQuery`, `ADXTableUsageStatistics` and `ADXTableDetails` respectively.
 
 ## Diagnostic logs schema
 
